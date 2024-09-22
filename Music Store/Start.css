@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(store.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.menubar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    opacity: 0.7;
+}
+
+.log h1 {
+    padding: 15px;
+}
+
+.tit {
+    display: flex;
+    padding: 10px;
+}
+
+.tit div {
+    padding: 15px;
+}
+
+.tit h3 {
+    cursor: pointer;
+}
+
+.tot{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.ord {
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: antiquewhite;
+    opacity: 0.7;
+}
+
+.hea {
+    padding: 15px;
+    align-self: center;
+}
+
+.buto {
+    padding: 15px;
+    align-self: center;
+}
+
+.det {
+    padding: 15px;
+    flex-direction: column;
+}
+
+.det1 div{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.det1 div p{
+    width: 150px;
+}
+
+button {
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.orde {
+    display: none;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.abo,
+.con {
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: antiquewhite;
+    display: none;
+    padding: 15px;
+    margin: 15px;
+    opacity: 0.8;
+}
+
+.abo,
+.con p {
+    margin-left: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    opacity: 0.8;
+}
+
+.items {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box img {
+    border-radius: 7px;
+    max-width: 100%;
+    height: 15vh;
+    margin: 5px;
+}
+
+.box button{
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.tha,.checkout{
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    display: none;
+    text-align: center;
+}

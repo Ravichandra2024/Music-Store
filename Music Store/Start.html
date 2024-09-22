@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-Music</title>
+    <link rel="stylesheet" href="Start.css">
+</head>
+
+<body>
+    <div class="menubar">
+        <div class="log">
+            <h1>&nbsp;&nbsp;RMusic</h1>
+        </div>
+        <div class="tit">
+            <div>
+                <h3 onclick="hom()">Home</h3>
+            </div>
+            <div>
+                <h3 onclick="about()">About</h3>
+            </div>
+            <div>
+                <h3 onclick="conta()">Contact</h3>
+            </div>
+        </div>
+    </div>
+    <div class="tot">
+        <div class="ord">
+            <div class="hea">
+                <h3>Welcome to RMusic</h3>
+            </div>
+            <div class="det">
+                <p>Beautiful music is the art of the prophets that can calm the agitations of the soul;<br> It is one of
+                    the most magnificent and delightful presents God has given us. <br>- <strong>Martin Luther</strong>
+                </p>
+            </div>
+            <div class="buto">
+                <button onclick="ord()">Visit Store</button>
+            </div>
+        </div>
+    </div>
+    <div class="orde">
+        <div class="menu">
+            <div class="head">
+                <h2>String Instruments</h2>
+            </div>
+            <div class="items">
+                <div class="box">
+                    <img src="Guitar.webp" alt="">
+                    <h2>Guitar</h2>
+                    <p>Rs.30,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="guit" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="violin.webp" alt="">
+                    <h2>Violin</h2>
+                    <p>Rs.25,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="viol" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="banjo.webp" alt="">
+                    <h2>Banjo</h2>
+                    <p>Rs.15,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="ban" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="harp.webp" alt="">
+                    <h2>Harp</h2>
+                    <p>Rs.40,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="harp" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="mandolin.webp" alt="">
+                    <h2>Mandolin</h2>
+                    <p>Rs.18,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="mand" /> </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="head">
+                <h2>Wind Instruments</h2>
+            </div>
+            <div class="items">
+                <div class="box">
+                    <img src="flute.webp" alt="">
+                    <h2>Flute</h2>
+                    <p>Rs.8,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="flut" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="saxophone.webp" alt="">
+                    <h2>Saxophone</h2>
+                    <p>Rs.35,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="saxp" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="clarinet.webp" alt="">
+                    <h2>Clarinet</h2>
+                    <p>Rs.22,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="clar" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="trumpet.webp" alt="">
+                    <h2>Trumpet</h2>
+                    <p>Rs.28,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="trum" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="trombone.webp" alt="">
+                    <h2>Trombone</h2>
+                    <p>Rs.30,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="trom" /> </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="head">
+                <h2>Percussion Instruments</h2>
+            </div>
+            <div class="items">
+                <div class="box">
+                    <img src="drums.webp" alt="">
+                    <h2>Drums</h2>
+                    <p>Rs.50,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="drum" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="bongo.webp" alt="">
+                    <h2>Bongo</h2>
+                    <p>Rs.12,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="bong" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="conga.webp" alt="">
+                    <h2>Conga</h2>
+                    <p>Rs.15,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="cong" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="marimba.webp" alt="">
+                    <h2>Marimba</h2>
+                    <p>Rs.45,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="mari" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="xylophone.webp" alt="">
+                    <h2>Xylophone</h2>
+                    <p>Rs.20,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="xylo" /> </p>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="head">
+                <h2>Electronic Instruments</h2>
+            </div>
+            <div class="items">
+                <div class="box">
+                    <img src="keyboard.webp" alt="">
+                    <h2>Keyboard</h2>
+                    <p>Rs.25,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="keyb" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="synthesizer.webp" alt="">
+                    <h2>Synthesizer</h2>
+                    <p>Rs.40,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="synt" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="electricguitar.webp" alt="">
+                    <h2>Electric Guitar</h2>
+                    <p>Rs.32,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="elegui" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="drummachine.webp" alt="">
+                    <h2>Drum Machine</h2>
+                    <p>Rs.18,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="drumac" /> </p>
+
+                </div>
+                <div class="box">
+                    <img src="midicontroller.webp" alt="">
+                    <h2>MIDI Controller</h2>
+                    <p>Rs.15,000</p>
+                    <p class="C"> Quantity:<input class="I" type="number" name="midi" /> </p>
+
+                </div>
+            </div>
+        </div>
+        <div><button onclick="updateReceipt()"
+                style="display: flex; align-items: center; justify-content: center; width: 100%;">Proceed to
+                Cart</button></div>
+    </div>
+    <div class="checkout">
+        <div class="ord">
+            <div class="hea">
+                <h3>Order Details</h3>
+            </div>
+            <div class="det1">
+                <div>
+                    <p>Product Name</p>
+                    <p style="text-align: center;">Quantity</p>
+                    <p style="text-align: center;">Price</p>
+                </div>
+            </div>
+            <div>
+                <p id="total"></p>
+            </div>
+            <div class="buto">
+                <button onclick="thank()">Place Order</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p id="sum"></p>
+    </div>
+    <div class="tha">
+        <div class="ord">
+            <div class="hea">
+                <h3>Thank You For Shopping at RMusic</h3>
+            </div>
+            <div class="det">
+                <p>Hope you to have a wonderful melodious day ahead.<br>Please Visit Again</p>
+            </div>
+            <div class="buto">
+                <button onclick="hom()">Go to Home</button>
+            </div>
+        </div>
+    </div>
+    <div class="abo">
+        <div class="hea">
+            <h1>About Us</h1><br><br>
+            <h2>Our Melodic Journey</h2><br>
+            <p>Embarking on a musical odyssey, RMusic was born in 2024 with a mission to redefine the way you
+                experience music. Our commitment is to offer a diverse range of musical instruments that resonate with
+                both contemporary and traditional vibes, ensuring a harmonious adventure for every musician.</p><br>
+            <h2>Celebrating Musical Mastery</h2><br>
+            <p>At RMusic, our space is a haven of creativity, where skilled artisans and music enthusiasts come
+                together to curate instruments that not only sound exquisite but also inspire musical excellence. We
+                take
+                pride in our collection, blending global influences with timeless craftsmanship.</p><br>
+            <h2>Sourcing Harmony Locally</h2><br>
+            <p>Committed to quality, we source our materials locally to ensure each instrument produces the highest
+                caliber
+                of sound. By supporting local craftsmen and artists, we not only guarantee top-notch musical experiences
+                but also contribute to the richness of our artistic community.</p><br>
+            <h2>Harmonious Hospitality</h2><br>
+            <p>Beyond our beautiful instruments, RMusic is defined by warm hospitality. Our knowledgeable and
+                passionate staff is here to make your musical journey exceptional, ensuring every visit is filled with
+                warmth, comfort, and genuine care.</p><br>
+            <h2>Community of Crescendos</h2><br>
+            <p>As a proud member of the music community, RMusic actively engages in initiatives that promote
+                musical education and well-being. We believe in fostering the love for music and are dedicated to making
+                a positive impact through various music programs and events.</p><br>
+            <h2>Play On with Us</h2><br>
+            <p>Whether you're a beginner or a seasoned musician, RMusic invites you to explore our world of musical
+                delight. Find the perfect instrument, embark on a melodious journey, and let RMusic be the
+                soundtrack to your musical dreams.</p><br>
+            <h4>Thank you for choosing RMusic. Established in 2024, we are excited to be part of your musical
+                journey, and we look forward to harmonizing with you with passion and excellence.</h4>
+        </div>
+    </div>
+    <div class="con">
+        <div class="hea">
+            <h1>Contact Us</h1><br>
+            <p>For any inquiries, please contact us using the information below:</p><br>
+            <p><strong>Founder:</strong> RMusic</p><br>
+            <p><strong>Address:</strong> Marathahalli, Bangalore-560067</p><br>
+            <p><strong>Contact Number:</strong> 9876543210</p><br>
+            <p><strong>Email:</strong> <a href="mailto:RMusic@gmail.com">RMusic@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+<script>
+    function ord() {
+        var hme = document.querySelector('.tot')
+        var od = document.querySelector('.orde')
+        var abt = document.querySelector('.abo')
+        var cont = document.querySelector('.con')
+        var than = document.querySelector('.tha')
+        var chec = document.querySelector('.checkout')
+        chec.style.display='none';
+        hme.style.display = 'none';
+        od.style.display = 'flex';
+        abt.style.display = 'none';
+        cont.style.display = 'none';
+        than.style.display = 'none';
+    }
+    function hom() {
+        var hme = document.querySelector('.tot')
+        var od = document.querySelector('.orde')
+        var abt = document.querySelector('.abo')
+        var cont = document.querySelector('.con')
+        var than = document.querySelector('.tha')
+        var chec = document.querySelector('.checkout')
+        chec.style.display='none';
+        hme.style.display = 'flex';
+        od.style.display = 'none';
+        abt.style.display = 'none';
+        cont.style.display = 'none';
+        than.style.display = 'none';
+    }
+    function about() {
+        var hme = document.querySelector('.tot')
+        var od = document.querySelector('.orde')
+        var abt = document.querySelector('.abo')
+        var cont = document.querySelector('.con')
+        var than = document.querySelector('.tha')
+        var chec = document.querySelector('.checkout')
+        chec.style.display='none';
+        hme.style.display = 'none';
+        od.style.display = 'none';
+        abt.style.display = 'flex';
+        cont.style.display = 'none';
+        than.style.display = 'none';
+    }
+    function conta() {
+        var hme = document.querySelector('.tot')
+        var od = document.querySelector('.orde')
+        var abt = document.querySelector('.abo')
+        var cont = document.querySelector('.con')
+        var than = document.querySelector('.tha')
+        var chec = document.querySelector('.checkout')
+        chec.style.display='none';
+        hme.style.display = 'none';
+        od.style.display = 'none';
+        abt.style.display = 'none';
+        cont.style.display = 'flex';
+        than.style.display = 'none';
+    }
+
+    function thank() {
+        var hme = document.querySelector('.tot')
+        var od = document.querySelector('.orde')
+        var abt = document.querySelector('.abo')
+        var cont = document.querySelector('.con')
+        var than = document.querySelector('.tha')
+        var chec = document.querySelector('.checkout')
+        chec.style.display='none';
+        hme.style.display = 'none';
+        od.style.display = 'none';
+        abt.style.display = 'none';
+        cont.style.display = 'none';
+        than.style.display = 'flex';
+    }
+
+    function updateReceipt() {
+        var hme = document.querySelector('.tot')
+        var od = document.querySelector('.orde')
+        var abt = document.querySelector('.abo')
+        var cont = document.querySelector('.con')
+        var than = document.querySelector('.tha')
+        var chec = document.querySelector('.checkout')
+        chec.style.display='flex';
+        hme.style.display = 'none';
+        od.style.display = 'none';
+        abt.style.display = 'none';
+        cont.style.display = 'none';
+        than.style.display = 'none';
+        const items = [
+            { name: "Guitar", price: 30, quantity: parseInt(document.getElementsByName("guit")[0].value) || 0 },
+            { name: "Violin", price: 25, quantity: parseInt(document.getElementsByName("viol")[0].value) || 0 },
+            { name: "Banjo", price: 15, quantity: parseInt(document.getElementsByName("ban")[0].value) || 0 },
+            { name: "Harp", price: 40, quantity: parseInt(document.getElementsByName("harp")[0].value) || 0 },
+            { name: "Mandolin", price: 18, quantity: parseInt(document.getElementsByName("mand")[0].value) || 0 },
+            { name: "Flute", price: 8, quantity: parseInt(document.getElementsByName("flut")[0].value) || 0 },
+            { name: "Saxophone", price: 35, quantity: parseInt(document.getElementsByName("saxp")[0].value) || 0 },
+            { name: "Clarinet", price: 22, quantity: parseInt(document.getElementsByName("clar")[0].value) || 0 },
+            { name: "Trumpet", price: 28, quantity: parseInt(document.getElementsByName("trum")[0].value) || 0 },
+            { name: "Trombone", price: 30, quantity: parseInt(document.getElementsByName("trom")[0].value) || 0 },
+            { name: "Drum", price: 50, quantity: parseInt(document.getElementsByName("drum")[0].value) || 0 },
+            { name: "Bongo", price: 12, quantity: parseInt(document.getElementsByName("bong")[0].value) || 0 },
+            { name: "Conga", price: 15, quantity: parseInt(document.getElementsByName("cong")[0].value) || 0 },
+            { name: "Marimba", price: 45, quantity: parseInt(document.getElementsByName("mari")[0].value) || 0 },
+            { name: "Xylophone", price: 20, quantity: parseInt(document.getElementsByName("xylo")[0].value) || 0 },
+            { name: "Keyboard", price: 25, quantity: parseInt(document.getElementsByName("keyb")[0].value) || 0 },
+            { name: "Synthesizer", price: 40, quantity: parseInt(document.getElementsByName("synt")[0].value) || 0 },
+            { name: "Electric Guitar", price: 32, quantity: parseInt(document.getElementsByName("elegui")[0].value) || 0 },
+            { name: "Drum Machine", price: 18, quantity: parseInt(document.getElementsByName("drumac")[0].value) || 0 },
+            { name: "Midi Controller", price: 15, quantity: parseInt(document.getElementsByName("midi")[0].value) || 0 }
+        ];
+        var sum = 0;
+        x = [];
+        for (i = 0; i < 20; i++) {
+            sum = sum + items[i].price * items[i].quantity * 1000;
+            if (items[i].quantity != 0) {
+                x.push([items[i].name, items[i].price * 1000, items[i].quantity]);
+            }
+        }
+        var j=document.querySelector(".det1");
+        for(i=0;i<x.length;i++){
+            var div=document.createElement("div");
+            var p=document.createElement("p");
+            p.innerHTML=x[i][0];
+            div.appendChild(p);
+            var p=document.createElement("p");
+            p.innerHTML=x[i][2];
+            p.style.textAlign="center";
+            div.appendChild(p);
+            var p=document.createElement("p");
+            p.innerHTML=x[i][1];
+            p.style.textAlign="center";
+            div.appendChild(p);
+            j.appendChild(div);
+        }
+        var toot=document.querySelector('#total')
+        toot.innerHTML="Total :"+sum;
+    }
+</script>
+</html>
